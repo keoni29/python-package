@@ -8,6 +8,7 @@ setup(name='mypackage',
       author_email='8by8mail@gmail.com',
       license='MIT',
       packages=['mypackage'],
-      scripts=['myscript'],
+      entry_points = {
+        'console_scripts': ['myscript=mypackage.myscript:main']},
       zip_safe=False,
 )

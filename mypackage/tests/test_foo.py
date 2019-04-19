@@ -1,4 +1,4 @@
 import mypackage
 
 def test_foo():
-    assert mypackage.foofunction() == 'foo'
+    assert mypackage.foofunction() == 'bar'

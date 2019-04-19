@@ -1,7 +1,10 @@
-import mypackage
+try:
+    from . import foo
+except:
+    import foo
 
 def main():
-    print(mypackage.foofunction())
+    print(foo.foofunction())
 
 if __name__ == "__main__":
     main()

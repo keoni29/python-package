@@ -1,0 +1,3 @@
+
+def barfunction():
+    return 'bar'
